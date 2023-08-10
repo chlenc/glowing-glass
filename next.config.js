@@ -16,7 +16,7 @@ const settings = {
     siteKeywords: 'glass, fruits, fun',
     siteUrl: 'glowing-glass.com',
     siteImagePreviewUrl: '/images/main.jpg',
-    twitterHandle: '@compolabs'
+    twitterHandle: '@compolabs',
   },
   images: {
     domains: ['cdn.shopify.com'],
