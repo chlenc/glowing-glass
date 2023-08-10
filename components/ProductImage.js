@@ -13,11 +13,12 @@ function ProductImage({ images }) {
 
   return (
     <div className="w-full md:w-1/2 max-w-md border border-palette-lighter bg-white rounded shadow-lg">
-      <div className="relative h-96">
+      <div className="relative h-96 overflow-hidden">
         <Image
           src={mainImg.originalSrc}
           alt={mainImg.altText}
-          layout="fill"
+          // layout="fill"
+          fill={true}
           className=" transform duration-500 ease-in-out hover:scale-105 object-cover"
         />
       </div>
@@ -38,13 +39,14 @@ function ProductImage({ images }) {
             images.map((imgItem, index) => (
               <button
                 key={index}
-                className="relative w-40 h-32 flex-shrink-0 rounded-sm "
+                className="relative w-40 h-32 flex-shrink-0 rounded-sm overflow-hidden"
                 onClick={() => setMainImg(imgItem.node)}
               >
                 <Image
                   src={imgItem.node.originalSrc}
                   alt={imgItem.node.altText}
-                  layout="fill"
+                  // layout="fill"
+                  fill={true}
                   className="object-cover"
                 />
               </button>

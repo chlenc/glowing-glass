@@ -17,11 +17,12 @@ function ProductCard({ product }) {
       legacyBehavior
     >
       <a className="h-120 w-72 rounded shadow-lg mx-auto border border-palette-lighter">
-        <div className="h-72 border-b-2 border-palette-lighter relative">
+        <div className="h-72 border-b-2 border-palette-lighter relative overflow-hidden">
           <Image
             src={imageNode.originalSrc}
             alt={imageNode.altText}
-            layout="fill"
+            // layout="fill"
+            fill={true}
             className="transform duration-500 ease-in-out hover:scale-110 object-cover"
           />
         </div>
