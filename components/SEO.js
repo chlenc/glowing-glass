@@ -8,7 +8,7 @@ function SEO({ title }) {
   const siteURL = process.env.siteUrl
   const twitterHandle = process.env.twitterHandle
   // const imagePreview = `${siteURL}/${process.env.siteImagePreviewUrl}`
-  const imagePreview = `/${process.env.siteImagePreviewUrl}`
+  const imagePreview = `<generated>`
 
   return (
     <Head>
