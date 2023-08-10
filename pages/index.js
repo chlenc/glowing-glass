@@ -5,10 +5,10 @@ import { getAllProductsInCollection } from '@/lib/shopify'
 function IndexPage({ products }) {
 
   return (
-    <div className="mx-auto max-w-6xl">
-      <StoreHeading />
-      <ProductListings products={products} />      
-    </div>
+      <div className="mx-auto max-w-6xl">
+        <StoreHeading />
+        <ProductListings products={products} />
+      </div>
   )
 }
 
