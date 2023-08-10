@@ -21,7 +21,7 @@ function ProductForm({ title, handle, variants, setVariantPrice, mainImg }) {
     setVariantId(e)
     // send back size change
     const selectedVariant = variants.filter(v => v.node.id === e).pop()
-    setVariantPrice(selectedVariant.node.price)
+    setVariantPrice(selectedVariant.node.price.amount)
 
     // update variant
     setVariant(selectedVariant)
@@ -36,7 +36,7 @@ function ProductForm({ title, handle, variants, setVariantPrice, mainImg }) {
         productHandle: handle,
         productImage: mainImg,
         variantId: varId,
-        variantPrice: variant.node.price,
+        variantPrice: variant.node.price.amount,
         variantTitle: variant.node.title,
         variantQuantity: quantity
       })

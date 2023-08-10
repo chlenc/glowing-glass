@@ -63,7 +63,7 @@ function CartTable({ cart }) {
               </td>
               <td className="font-primary text-base font-light px-4 sm:px-6 py-4 hidden sm:table-cell">
                 <Price
-                  currency="$"
+                  currency="€"
                   num={item.variantPrice}
                   numSize="text-lg"
                 />
@@ -88,7 +88,7 @@ function CartTable({ cart }) {
                 <td className="font-primary text-base text-gray-600 font-semibold uppercase px-4 sm:px-6 py-4">Subtotal</td>
                 <td className="font-primary text-lg text-palette-primary font-medium px-4 sm:px-6 py-4">
                   <Price
-                    currency="$"
+                    currency="€"
                     num={subtotal}
                     numSize="text-xl"
                   />

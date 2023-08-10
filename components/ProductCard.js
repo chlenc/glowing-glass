@@ -6,7 +6,7 @@ function ProductCard({ product }) {
   const handle = product.node.handle
   const title = product.node.title
   const description = product.node.description
-  const price = product.node.variants.edges[0].node.price
+  const price = product.node.variants.edges[0].node.price.amount
 
   const imageNode = product.node.images.edges[0].node
 
@@ -21,7 +21,7 @@ function ProductCard({ product }) {
             src={imageNode.originalSrc}
             alt={imageNode.altText}
             layout="fill"
-            className="transform duration-500 ease-in-out hover:scale-110"
+            className="transform duration-500 ease-in-out hover:scale-110 object-cover"
           />
         </div>
         <div className="h-48 relative">
@@ -36,7 +36,7 @@ function ProductCard({ product }) {
             rounded-tl-sm triangle"
           >
             <Price
-              currency="$"
+              currency="€"
               num={price}
               numSize="text-lg"
             />

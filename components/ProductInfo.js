@@ -11,7 +11,7 @@ function ProductInfo({ title, description, price }) {
       </p>
       <div className="text-xl text-palette-primary font-medium py-4 px-1">
         <Price
-          currency="$"
+          currency="€"
           num={price}
           numSize="text-2xl"
         />

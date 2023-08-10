@@ -7,12 +7,12 @@ module.exports = withPWA({
     disable: process.env.NODE_ENV === 'development',
   },
   env: {
-    siteTitle: 'Doggy Stickers',
-    siteDescription: 'Get some Doggy Stickers!',
-    siteKeywords: 'dog, stickers, fun',
-    siteUrl: 'https://www.doggystickers.xyz',
+    siteTitle: 'Lampwork Glowing Glass',
+    siteDescription: '👋🏻 I am Kateryna\n🔥 Glass jewellery artist\n🚀 Worldwide shipping',
+    siteKeywords: 'glass, fruits, fun',
+    siteUrl: '',//todo
     siteImagePreviewUrl: '/images/main.jpg',
-    twitterHandle: '@deepwhitman'
+    twitterHandle: '@'
   },
   images: {
     domains: ['cdn.shopify.com'],
