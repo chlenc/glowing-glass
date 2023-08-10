@@ -14,7 +14,7 @@ const settings = {
     siteTitle: 'Lampwork Glowing Glass',
     siteDescription: '👋🏻 I am Kateryna\n🔥 Glass jewellery artist\n🚀 Worldwide shipping',
     siteKeywords: 'glass, fruits, fun',
-    siteUrl: 'www.google.com',//todo
+    siteUrl: 'glowing-glass.com',
     siteImagePreviewUrl: '/images/main.jpg',
     twitterHandle: '@compolabs'
   },
