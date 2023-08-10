@@ -15,7 +15,7 @@ const settings = {
     siteDescription: '👋🏻 I am Kateryna\n🔥 Glass jewellery artist\n🚀 Worldwide shipping',
     siteKeywords: 'glass, fruits, fun',
     siteUrl: 'glowing-glass.com',
-    siteImagePreviewUrl: '/images/main.jpg',
+    siteImagePreviewUrl: 'images/main.jpg',
     twitterHandle: '@compolabs',
   },
   images: {
